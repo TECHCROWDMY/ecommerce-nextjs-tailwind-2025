@@ -1,9 +1,8 @@
 // components/ProductReviews.tsx
 
-import Review from "@/util/review";
 import { Star } from 'lucide-react';
 
-const ProductReviews = ({ reviews }: { reviews: Review[] }) => {
+const ProductReviews = ({ reviews }) => {
   return (
     <div className="mt-16">
       <h2 className="text-3xl font-bold text-gray-800 mb-6">Customer Reviews</h2>

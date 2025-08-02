@@ -1,10 +1,9 @@
 // components/ProductCard.tsx
 
 import Link from 'next/link';
-import Product from "@/util/product";
 
 // Product Card Component - Displays a single product with an image, name, price, and add-to-cart button.
-const ProductCard = ({ product }: { product: Product }) => {
+const ProductCard = ({ product }) => {
   return (
     <Link href={`/products/${product.slug}`} passHref>
       <div

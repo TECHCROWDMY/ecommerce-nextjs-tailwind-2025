@@ -3,11 +3,10 @@
 
 import { useState } from 'react';
 import { ShoppingCart, User, Search, Menu } from 'lucide-react';
-import CartItem from '@/util/cartItems';
 
 const Navbar = () => {
 
-  const [cartItems, setCartItems] = useState<CartItem[]>([]);
+  const [cartItems, setCartItems] = useState([]);
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 

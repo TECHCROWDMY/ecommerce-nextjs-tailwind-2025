@@ -1,10 +1,9 @@
 'use client'
 
 // Product Details section
-import Product from "@/util/product";
 import { Star } from 'lucide-react';
 
-const ProductDetailsSection = ({ product }: { product: Product }) => {
+const ProductDetailsSection = ({ product }) => {
   return (
     <div className="w-full lg:w-1/2 lg:pl-12">
       <h1 className="text-4xl font-extrabold text-gray-900 mb-2">{product.name}</h1>

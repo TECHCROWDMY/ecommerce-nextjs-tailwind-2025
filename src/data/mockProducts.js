@@ -1,9 +1,7 @@
 // data/mockProducts.ts
 
-import Product from "@/util/product";
-
 // Mock product data to display on the page. In a real application, you would fetch this from an API.
-const mockProducts: Product[] = [
+const mockProducts = [
   {
     id: 1,
     name: "Classic T-Shirt",

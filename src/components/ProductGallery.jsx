@@ -1,9 +1,8 @@
 'use client'
 
 import { useState } from "react";
-import Product from "@/util/product";
 
-const ProductGallery = ({ product }: { product: Product }) => {
+const ProductGallery = ({ product }) => {
   const [mainImage, setMainImage] = useState(product.images[0]);
 
   return (

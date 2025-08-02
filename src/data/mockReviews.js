@@ -1,8 +1,6 @@
 // data/mockReviews.ts
 
-import Review from "@/util/review";
-
-const mockReviews: Review[] = [
+const mockReviews = [
   {
     id: 1,
     author: "Jane Doe",
